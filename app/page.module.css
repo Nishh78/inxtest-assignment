@@ -41,7 +41,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
+  grid-template-columns: repeat(3, minmax(33.33%, auto));
   max-width: 100%;
   width: var(--max-width);
 }
@@ -49,6 +49,8 @@
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
+  width: 200px;
+  text-align: center;
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;

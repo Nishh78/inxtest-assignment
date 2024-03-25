@@ -1,0 +1,7 @@
+.tooltip {
+    position: absolute;
+    top: 0;
+    right: 0;
+    translate: -25% -50%;
+    opacity: 0.8;
+}

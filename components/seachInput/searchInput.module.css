@@ -1,0 +1,8 @@
+.search-box {
+    color: var(--card-foreground);
+    border: 1px  solid;
+    padding: var(--2) var(--4);
+    margin: var(--2) 0;
+    width: 70%;
+    border-radius: var(--rounded-lg);
+  }
